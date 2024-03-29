@@ -16,8 +16,8 @@ INITIAL SET UP:
 
 CREATE HOMEPAGE:
 
-1. Break down the the hompage using GoFullPage
-2. Create basic HTML and CSS
+1. Break down the the hompage using GoFullPage ✅
+2. Create basic HTML and CSS for mobile site and then desktop
 3. Separate into components (React)
 4. Nav bar: links and pages to the other pages on the site
 
@@ -30,3 +30,9 @@ OTHER PAGES:
 5. Contact me - Form
 
 \*Stretch goal: to make a login page
+
+TODO:
+
+- Learn how to crop svgs
+- Add a background img
+- Learn how to add css reset to css modules
