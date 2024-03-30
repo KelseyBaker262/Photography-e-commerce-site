@@ -1,7 +1,10 @@
+/* BACKGROUND STYLES */
 
-/* HEADER STYLING */
-
-.navbuttons {
-  display: flex;
-  flex-direction: row;
+.backgroundImage {
+  background-image: url('/Beach.JPG'); /* Adjust the path as needed */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Full height */
+  width: 100%; /* Full width */
 }
+

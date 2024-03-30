@@ -33,6 +33,7 @@ OTHER PAGES:
 
 TODO:
 
-- Learn how to crop svgs
-- Add a background img
-- Learn how to add css reset to css modules
+- Learn how to crop svgs✅
+- Add a background img ✅
+- Learn how to add css reset to css modules✅
+- Learn how to optimize my background image✅

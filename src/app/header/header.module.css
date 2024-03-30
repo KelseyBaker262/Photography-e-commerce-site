@@ -1,0 +1,25 @@
+header.header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+  }
+
+img.logoOne {
+    height: 75px;
+    width: 75px;
+}
+
+img.shop, img.about, img.portfolio, img.contact {
+    height: 30px;
+}
+
+/* img.instagram, img.shoppingTrolley  {
+    height: 100px;
+    width: 100px;
+} */
+
+nav.navBtns {
+    display: flex;
+    flex-direction: row;
+}
