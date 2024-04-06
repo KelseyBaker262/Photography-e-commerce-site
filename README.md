@@ -37,3 +37,7 @@ TODO:
 - Add a background img ✅
 - Learn how to add css reset to css modules✅
 - Learn how to optimize my background image✅
+- Edit all of the SVGs
+- Create a menu button
+- When menu button is clicked show menu
+- link to pages
