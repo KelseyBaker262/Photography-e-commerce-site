@@ -11,10 +11,27 @@
 .mainLogoWrapper {
   width:100vw;
   height: 100vh;
-  padding: 10% 5% 5% 5%;
+  padding: 20% 5% 5% 5%;
   z-index: 1;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row;
 }
+
+@media screen and (min-width: 768px) {
+  .mainLogoWrapper {
+    padding: 15% 5% 5% 5%;
+  }
+}
+
+/* LOGO STYLES */
+/* .mainLogo {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .mainLogo {
+    width: 700px;
+  }
+} */

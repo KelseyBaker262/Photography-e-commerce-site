@@ -6,19 +6,44 @@ import Link from 'next/link';
 export default function Header() {
 
   return (
-       <header className={styles.header} >
-        <img className={styles.logoOne} src="/smallerlogo.png" alt="Lost in nostalgia logo" />
-        <nav className={styles.navBtns} >
-          <img className={styles.shop} src="/Shop.png" alt="Shop page button" />
-          <img className={styles.about}src="/About.png" alt="About page button" />
-          <img className={styles.portfolio}src="/Portfolio.png" alt="Portfolio page button" />
-          <img className={styles.contact}src="/Contact.png" alt="Contact page button" />
-          {/* <img className={styles.instagram} src="/Instagram.svg" alt="Instagram link button" />
-          <img className={styles.shoppingTrolley} src="/shoppingcart.png" alt="Shopping cart" /> */}
-        </nav>
-      </header>
+    <header className={styles.header}>
+       <nav className={styles.navbar} >
+        <a href="#" className={styles.navbranding}>Logo</a>
+
+        <ul className={styles.navmenu}>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>Shop</a>
+          </li>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>About</a>
+          </li>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>Work</a>
+          </li>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>Contact</a>
+          </li>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>Socials</a>
+          </li>
+          <li className={styles.navitem}>
+            <a href="#" className={styles.navlink}>Cart</a>
+          </li>
+        </ul>
+        <div className={styles.hamburger}>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </div>
+      </nav>
+    </header>
   );
 }
 
-// className={styles}
-// className={styles.navbuttons}
+// Smalllogo
+// Shop
+// About
+// Work
+// Contact
+// Socials
+// Cart
